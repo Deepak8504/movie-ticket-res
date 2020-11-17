@@ -19,12 +19,7 @@ bool is_aisle(ll num, vll vec){
     else return false;
 }
 
-void disp(vll v){
-    for(ll i=0;i<v.size();++i){
-        if(i!=v.size()-1)cout<<v[i]<<" ";
-        else cout<<v[i];
-    }
-}
+
 
 void add_screen(vs str){
     
